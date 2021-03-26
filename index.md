@@ -43,7 +43,7 @@ A future concept (Coming Soon! :slightly_smiling_face:)
 
 ## How to use
 
-Expend following steps and run your first workflow -
+Click on following steps and run your first workflow -
 
 <details><summary><b>Step 1: Prerequisite</b></summary>
 
@@ -68,7 +68,7 @@ pip install --editable .
 <details><summary><b>Step 3: Configure Source/Observer</b></summary>
 
 <table ><tbody ><tr></tr><tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/twitter.png" width="20" height="20"><b>Twitter</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/twitter.png" width="20" height="20"><b>Twitter</b></summary><hr>
 
  ```python
 from obsei.source.twitter_source import TwitterCredentials, TwitterSource, TwitterSourceConfig
@@ -91,7 +91,7 @@ source = TwitterSource()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/gmail.png" width="20" height="20"><b>Email</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/gmail.png" width="20" height="20"><b>Email</b></summary><hr>
 
  ```python
 from obsei.source.email_source import EmailConfig, EmailCredInfo, EmailSource
@@ -120,7 +120,7 @@ source = EmailSource()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/appstore.png" width="20" height="20"><b>AppStore Reviews Scrapper</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/appstore.png" width="20" height="20"><b>AppStore Reviews Scrapper</b></summary><hr>
 
  ```python
 from obsei.source.appstore_scrapper import AppStoreScrapperConfig, AppStoreScrapperSource
@@ -144,7 +144,7 @@ source = AppStoreScrapperSource()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/playstore.png" width="20" height="20"><b>Play Store Reviews Scrapper</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/playstore.png" width="20" height="20"><b>Play Store Reviews Scrapper</b></summary><hr>
 
  ```python
 from obsei.source.playstore_scrapper import PlayStoreScrapperConfig, PlayStoreScrapperSource
@@ -167,7 +167,7 @@ source = PlayStoreScrapperSource()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/reddit.png" width="20" height="20"><b>Reddit</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/reddit.png" width="20" height="20"><b>Reddit</b></summary><hr>
 
  ```python
 from obsei.source.reddit_source import RedditConfig, RedditSource, RedditCredInfo
@@ -195,7 +195,7 @@ source = RedditSource()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/reddit.png" width="20" height="20"><b>Reddit Scrapper</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/reddit.png" width="20" height="20"><b>Reddit Scrapper</b></summary><hr>
 
 <i>Note: Reddit heavily rate limit scrappers, hence use it to fetch small data during long period</i>
 
@@ -224,7 +224,7 @@ source = RedditScrapperSource()
 <details><summary><b>Step 4: Configure Analyzer/Segmenter</b></summary>
 
 <table ><tbody ><tr></tr><tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/classification.png" width="20" height="20"><b>Text Classification</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/classification.png" width="20" height="20"><b>Text Classification</b></summary><hr>
 
 Text classification, classify text into user provided categories.
  ```python
@@ -246,7 +246,7 @@ text_analyzer = ZeroShotClassificationAnalyzer(
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/sentiment.png" width="20" height="20"><b>Sentiment Analyzer</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/sentiment.png" width="20" height="20"><b>Sentiment Analyzer</b></summary><hr>
 
 Sentiment Analyzer, detect the sentiment of the text. Text classification can also perform sentiment analysis but if you don't want to use heavy-duty NLP model then use less resource hungry dictionary based Vader Sentiment detector.
  ```python
@@ -262,7 +262,7 @@ text_analyzer = VaderSentimentAnalyzer()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/ner.png" width="20" height="20"><b>NER Analyzer</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/ner.png" width="20" height="20"><b>NER Analyzer</b></summary><hr>
 
 NER (Named-Entity Recognition) Analyzer, extract information and classify named entities mentioned in text into pre-defined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc
  ```python
@@ -281,7 +281,7 @@ text_analyzer = NERAnalyzer(
 </td>
 </tr>
 <tr>
-<td><details ><summary><b>Dummy Analyzer</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/dummy.png" width="20" height="20"><b>Dummy Analyzer</b></summary><hr>
 
 Dummy Analyzer, do nothing it simply used for transforming input (AnalyzerRequest) to output (AnalyzerResponse) also adding user supplied dummy data.
  ```python
@@ -304,7 +304,7 @@ analyzer = DummyAnalyzer()
 <details><summary><b>Step 5: Configure Sink/Informer</b></summary>
 
 <table ><tbody ><tr></tr><tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/slack.png" width="20" height="20"><b>Slack</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/slack.png" width="20" height="20"><b>Slack</b></summary><hr>
 
  ```python
 from obsei.sink.slack_sink import SlackSink, SlackSinkConfig
@@ -325,7 +325,7 @@ sink = SlackSink()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/zendesk.png" width="20" height="20"><b>Zendesk</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/zendesk.png" width="20" height="20"><b>Zendesk</b></summary><hr>
 
  ```python
 from obsei.sink.zendesk_sink import ZendeskSink, ZendeskSinkConfig, ZendeskCredInfo
@@ -356,7 +356,7 @@ sink = ZendeskSink()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/jira.png" width="20" height="20"><b>Jira</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/jira.png" width="20" height="20"><b>Jira</b></summary><hr>
 
  ```python
 from obsei.sink.jira_sink import JiraSink, JiraSinkConfig
@@ -385,7 +385,7 @@ sink = JiraSink()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/elastic.png" width="20" height="20"><b>ElasticSearch</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/elastic.png" width="20" height="20"><b>ElasticSearch</b></summary><hr>
 
  ```python
 from obsei.sink.elasticsearch_sink import ElasticSearchSink, ElasticSearchSinkConfig
@@ -410,7 +410,7 @@ sink = ElasticSearchSink()
 </td>
 </tr>
 <tr>
-<td><details ><summary><img style="float: right;" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/http_api.png" width="20" height="20"><b>Http</b></summary><hr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/http_api.png" width="20" height="20"><b>Http</b></summary><hr>
 
  ```python
 from obsei.sink.http_sink import HttpSink, HttpSinkConfig
@@ -433,6 +433,30 @@ sink_config = HttpSinkConfig(
 
 # initialize http sink
 sink = HttpSink()
+```
+</details>
+</td>
+</tr>
+<tr>
+<td><details ><summary><img style="vertical-align:middle;margin:2px 10px" src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/logger.png" width="20" height="20"><b>Logger</b></summary><hr>
+
+This is useful for testing and dry run checking of pipeline.
+ ```python
+from obsei.sink.logger_sink import LoggerSink, LoggerSinkConfig
+import logging
+import sys
+
+logger = logging.getLogger("Obsei")
+logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+
+# initialize logger sink config
+sink_config = LoggerSinkConfig(
+    logger=logger,
+    level=logging.INFO
+)
+
+# initialize logger sink
+sink = LoggerSink()
 ```
 </details>
 </td>
