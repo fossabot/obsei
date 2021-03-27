@@ -32,12 +32,9 @@
     </a>
 </p>
 
-**Note: There are major breaking changes are on the way. Please use released version instead of master branch. To track progress of next release refer [Release Progress](#release-progress).**
-
-
 **Obsei** is intended to be a workflow automation tool for text segmentation need. *Obsei* consist of -
- - **OBserver**, observes platform like Twitter, Facebook, App Stores, Google reviews, Amazon reviews and feed that information to,
- - **SEgmenter**, which perform text classification and sentiment analysis and feed that information to,
+ - **Observer**, observes platform like Twitter, Facebook, App Stores, Google reviews, Amazon reviews and feed that information to,
+ - **Segmenter**, which perform text classification and sentiment analysis and feed that information to,
  - **Informer**, which send it to ticketing system (Jira, Zendesk, etc), data store or other places for further action and analysis.
 
 Current flow -
