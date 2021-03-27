@@ -45,7 +45,7 @@ A future concept (Coming Soon! :slightly_smiling_face:)
 
 To try in Colab Notebook click: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lalitpagaria/obsei/blob/master/example/Obsei_playstore_classification_logger_example.ipynb)
 
-To try in Binder click: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lalitpagaria/obsei/master?filepath=example%2FObsei_playstore_classification_logger_example.ipynb)
+To try in Binder click: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lalitpagaria/obsei/HEAD?filepath=example%2FObsei_playstore_classification_logger_example.ipynb)
 
 Click on following steps and create your workflow -
 
