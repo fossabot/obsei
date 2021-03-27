@@ -1,4 +1,15 @@
-# Obsei: OBserve, SEgment and Inform
+<p align="center">
+    <table style="border-collapse: collapse; border: none;">
+        <tr style="border-collapse: collapse; border: none;">
+            <th style="border-collapse: collapse; border: none;">
+                <img src="https://raw.githubusercontent.com/lalitpagaria/obsei/master/images/logos/obsei_200x200.png" width="100" height="100" />
+            </th>
+            <th style="border-collapse: collapse; border: none;">
+                <h1>Obsei: OBserve, SEgment and Inform</h1>
+            </th>
+        </tr>
+    </table>
+</p>
 
 <p align="center">
     <a href="https://github.com/lalitpagaria/obsei/actions">
@@ -13,21 +24,18 @@
     <a href="https://pypi.org/project/obsei/">
         <img alt="Release" src="https://img.shields.io/pypi/v/obsei">
     </a>
-    <a href="https://pepy.tech/project/obsei">
-        <img src="https://pepy.tech/badge/obsei/month" alt="Downloads" />
-    </a>
-    <a href="https://hub.docker.com/r/lalitpagaria/obsei">
-        <img src="https://img.shields.io/docker/pulls/lalitpagaria/obsei" alt="Docker Pulls" />
-    </a>
     <a href="https://github.com/lalitpagaria/obsei/commits/master">
         <img alt="Last commit" src="https://img.shields.io/github/last-commit/lalitpagaria/obsei">
+    </a>
+    <a href="https://github.com/lalitpagaria/obsei/issues">
+        <img alt="Open Issues" src="https://img.shields.io/github/issues/lalitpagaria/obsei">
     </a>
 </p>
 
 **Note: There are major breaking changes are on the way. Please use released version instead of master branch. To track progress of next release refer [Release Progress](#release-progress).**
 
 
-`Obsei` is intended to be a workflow automation tool for text segmentation need. `Obsei` consist of -
+**Obsei** is intended to be a workflow automation tool for text segmentation need. *Obsei* consist of -
  - **OBserver**, observes platform like Twitter, Facebook, App Stores, Google reviews, Amazon reviews and feed that information to,
  - **SEgmenter**, which perform text classification and sentiment analysis and feed that information to,
  - **Informer**, which send it to ticketing system (Jira, Zendesk, etc), data store or other places for further action and analysis.
